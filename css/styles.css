@@ -1,0 +1,181 @@
+body {
+    font-family: Roboto, sans-serif;
+    /*margin-right: auto;   **Keine Ahnung, ob das hier etwas bringt.**
+    margin-left:  auto;     **Die Ränder haben dann leider keine Färbung**
+    max-width: 1080px;
+    padding-right: 10px;
+    padding-left:  10px;*/
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.header, 
+.content-top,
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+    padding: 10px 435px;
+}
+
+.header-logo {
+    margin-right: auto;
+
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.text-title,
+.header-link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.content-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    gap: 48px;
+}
+
+.content-top-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 25%;
+    gap: 16px;
+}
+
+/*.content-top-container > * {
+    max-width: 40%;
+}*/
+
+.button-title {
+    flex: 1;
+    border-radius: 15px;
+    padding: 20px;
+    width: 80px;
+    height: 40px;
+    background-color: #3882F6;
+    text-align: center;
+    
+
+}
+
+.image-title {
+    display: flex;
+    color: #F9FAF8;
+    background-color: grey;
+    padding: 120px;
+}
+
+.content-middle {
+    margin: 25px 50px 100px 50px;
+}
+
+.middle-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    margin: 20px 0px 50px 0px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-image {
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+}
+
+.card-text {
+    display: flex;
+    width: 150px;
+    justify-content: center;
+    text-align: center;
+}
+
+.content-bottom {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    padding: 100px 600px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-author {
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.content-banner {
+  background-color: #3882F6;
+  border-radius: 15px;
+  color: #F9FAF8;
+  margin: 100px 450px;
+  font-size: 24px;
+  font-weight: 800;
+  padding: 50px 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+span {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.banner-button {
+    border: 2px solid #F9FAF8;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 8px 40px;
+    border-radius: 15px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    padding: 50px;
+}
